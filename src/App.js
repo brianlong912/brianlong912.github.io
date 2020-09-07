@@ -1,24 +1,23 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import headerImage from './resources/Grad_arch_bike_cropped.jpeg';
+import About from './components/About';
+import Projects from './components/Projects';
+import Leadership from './components/Leadership';
+import Skills from './components/Skills';
+import Passions from './components/Passions';
+import Navigation from './components/Navigation';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <img width="100%" src={headerImage} alt="Hi I'm Brian Long" />
+      <Navigation />
+      <About />
+      <Projects />
+      <Leadership />
+      <Skills />
+      <Passions />
     </div>
   );
 }
