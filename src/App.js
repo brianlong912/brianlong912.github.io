@@ -11,7 +11,8 @@ import Navigation from './components/Navigation';
 function App() {
   return (
     <div className="App">
-      <img width="100%" src={headerImage} alt="Hi I'm Brian Long" />
+      {/* <div className="header"/> */}
+      <div className="header-image" /> {/* src={headerImage} alt="Hi I'm Brian Long"  */}
       <Navigation />
       <About />
       <Projects />

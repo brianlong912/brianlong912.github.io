@@ -1,18 +1,45 @@
 .App {
   text-align: center;
+  min-width: 50em;
+}
+
+body {
+  min-width: 50em;
+}
+
+a {
+  text-decoration: none;
+  color: white
+}
+
+a:visited {
+  text-decoration: none;
 }
 
 hr {
   max-width: 80%;
 }
 
+.header{
+  height: 600px;
+  background:none;
+}
+
+.header-image{
+  background-image: url("./resources/Grad_arch_bike_cropped.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  height: 50vw;
+}
+
 .navigation{
   display: flex;
   justify-content: space-around;
-  background-color: #0C4AA5;
+  align-items: center;
+  background-color: #afafaf;
   color: white;
+  font-size: 25px;
+  height: 2em;
 }
-
-/* .header-image{
-
-} */
