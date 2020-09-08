@@ -1,0 +1,14 @@
+
+.leadership-item {
+  display: flex;
+  flex-direction: row;
+}
+
+.leadership-info {
+  width: 50%
+}
+
+.leadership-pics {
+  width: 50%
+
+}

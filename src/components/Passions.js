@@ -2,7 +2,8 @@ import React from 'react';
 
 function Passions() {
   return(
-    <div>
+    <div id="passions">
+      <h1>Passions</h1>
 
     </div>
   )

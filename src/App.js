@@ -11,14 +11,17 @@ import Navigation from './components/Navigation';
 function App() {
   return (
     <div className="App">
-      {/* <div className="header"/> */}
-      <div className="header-image" /> {/* src={headerImage} alt="Hi I'm Brian Long"  */}
+      <div className="header-image">
+        <div className="name">Brian Long</div>
+      </div>
       <Navigation />
-      <About />
-      <Projects />
-      <Leadership />
-      <Skills />
-      <Passions />
+      <div className="content">
+        <About />
+        <Projects />
+        <Leadership />
+        <Skills />
+        <Passions />
+      </div>
     </div>
   );
 }

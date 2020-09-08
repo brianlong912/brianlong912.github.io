@@ -2,9 +2,9 @@ import React from 'react';
 
 function About() {
   return (
-    <div>
+    <div id="about">
       <h1>About Me</h1>
-      <hr />
+      {/* <hr /> */}
       <p>
         Personable and diligent, I am seeking a position to blend my passion for physics with my love for computer science.
         While these fields approach problem-solving in different ways, I am able to use my experience from

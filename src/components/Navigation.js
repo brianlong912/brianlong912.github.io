@@ -1,13 +1,20 @@
 import React from 'react';
 
 function Navigation() {
-  return(
+  return (
     <div className="navigation">
-      <a>About Me</a>
-      <a>Projects</a>
-      <a>Leadership</a>
-      <a>Skills</a>
-      <a>Passions</a>
+      <div className="header" />
+      <div className="navigation-content">
+        <a href="#about">About Me</a>
+        <div>|</div>
+        <a href="#projects">Projects</a>
+        <div>|</div>
+        <a href="#leadership">Leadership</a>
+        <div>|</div>
+        <a href="#skills">Skills</a>
+        <div>|</div>
+        <a href="#passions">Passions</a>
+      </div>
     </div>
   )
 }

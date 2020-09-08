@@ -1,45 +1,83 @@
-.App {
-  text-align: center;
-  min-width: 50em;
-}
-
 body {
   min-width: 50em;
 }
 
 a {
   text-decoration: none;
-  color: white
+  color: white;
 }
 
 a:visited {
   text-decoration: none;
 }
 
+a:hover {
+  border-bottom: 3px solid #06306E;
+}
+
+h1 {
+  color: #06306E;
+  position: relative;
+}
+
 hr {
   max-width: 80%;
 }
 
-.header{
-  height: 600px;
-  background:none;
+:target::before {
+  content: "";
+  display: block;
+  height: 50px; /* fixed header height*/
+  margin: -50px 0 0; /* negative fixed header height */
 }
 
-.header-image{
+.App {
+  text-align: left;
+  min-width: 50em;
+}
+
+.name {
+  background: transparent;
+  position: absolute;
+  left: 100px;
+  top: 40px;
+  color: #06306E;
+  font-size: 3em;
+}
+
+.header {
+  height: 18px;
+  background: #06306E;
+}
+
+.header-image {
   background-image: url("./resources/Grad_arch_bike_cropped.jpeg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
-  height: 50vw;
+  height: 100vh;
 }
 
-.navigation{
+.navigation {
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+}
+
+.navigation-content {
   display: flex;
   justify-content: space-around;
   align-items: center;
   background-color: #afafaf;
   color: white;
-  font-size: 25px;
+  padding-right: 24%;
+  padding-left: 24%;
+  font-size: 20px;
   height: 2em;
+}
+
+.content {
+  /* margin-left: 18%;
+  margin-right: 18% ; */
 }
