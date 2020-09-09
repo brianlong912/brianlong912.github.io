@@ -1,14 +1,20 @@
 
+
 .leadership-item {
   display: flex;
   flex-direction: row;
+  height: 500px;
+  background-color: var(--second-color);
+  color: var(--base-color);
 }
 
 .leadership-info {
-  width: 50%
+  width: 50%;
 }
 
 .leadership-pics {
-  width: 50%
-
+  width: 50%;
+  display: inherit;
+  align-items: flex-start;
+  flex-wrap: wrap;
 }

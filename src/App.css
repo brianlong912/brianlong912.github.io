@@ -1,10 +1,18 @@
+
+:root {
+  --main-color:#06306E;
+  --base-color: white;
+  --second-color: #5F82B6;
+  --accent-color: #FF6978;
+}
+
 body {
   min-width: 50em;
 }
 
 a {
   text-decoration: none;
-  color: white;
+  color: var(--base-color);
 }
 
 a:visited {
@@ -12,11 +20,11 @@ a:visited {
 }
 
 a:hover {
-  border-bottom: 3px solid #06306E;
+  border-bottom: 3px solid var(--accent-color);
 }
 
 h1 {
-  color: #06306E;
+  color: var(--main-color);
   position: relative;
 }
 
@@ -41,13 +49,13 @@ hr {
   position: absolute;
   left: 100px;
   top: 40px;
-  color: #06306E;
+  color: var(--main-color);
   font-size: 3em;
 }
 
 .header {
   height: 18px;
-  background: #06306E;
+  background: var(--main-color);
 }
 
 .header-image {
@@ -69,15 +77,15 @@ hr {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #afafaf;
-  color: white;
+  background-color: var(--main-color);
+  color: var(--base-color);
   padding-right: 24%;
   padding-left: 24%;
   font-size: 20px;
   height: 2em;
 }
-
+/* 
 .content {
-  /* margin-left: 18%;
-  margin-right: 18% ; */
-}
+  margin-left: 18%;
+  margin-right: 18% ;
+} */
