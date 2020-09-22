@@ -1,15 +1,22 @@
-
+.leadership {
+  padding-top: 18px;
+}
 
 .leadership-item {
   display: flex;
   flex-direction: row;
-  height: 500px;
   background-color: var(--second-color);
   color: var(--base-color);
 }
 
 .leadership-info {
+  display: flex;
+  align-items: center;
   width: 50%;
+}
+
+.leadership-content {
+  padding: 10% 13%;
 }
 
 .leadership-pics {

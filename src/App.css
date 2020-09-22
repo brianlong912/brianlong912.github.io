@@ -1,8 +1,8 @@
 
 :root {
-  --main-color:#06306E;
+  --main-color:#022F40;
   --base-color: white;
-  --second-color: #5F82B6;
+  --second-color: #38AECC;
   --accent-color: #FF6978;
 }
 
@@ -10,16 +10,16 @@ body {
   min-width: 50em;
 }
 
-a {
+.nav {
   text-decoration: none;
   color: var(--base-color);
 }
 
-a:visited {
+.nav:visited {
   text-decoration: none;
 }
 
-a:hover {
+.nav:hover {
   border-bottom: 3px solid var(--accent-color);
 }
 
@@ -28,16 +28,21 @@ h1 {
   position: relative;
 }
 
+h3 {
+  color: var(--main-color);
+  margin: 0 0 1em 0;
+}
+
 hr {
   max-width: 80%;
 }
 
-:target::before {
+/* :target::before {
   content: "";
   display: block;
-  height: 50px; /* fixed header height*/
-  margin: -50px 0 0; /* negative fixed header height */
-}
+  height: 18px;
+  margin: -18px 0 0; 
+} */
 
 .App {
   text-align: left;
@@ -83,6 +88,10 @@ hr {
   padding-left: 24%;
   font-size: 20px;
   height: 2em;
+}
+
+.projects {
+  padding-top: 18px;
 }
 /* 
 .content {

@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-import headerImage from './resources/Grad_arch_bike_cropped.jpeg';
 import About from './components/About';
 import Projects from './components/Projects';
 import Leadership from './components/Leadership';
