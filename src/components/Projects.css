@@ -1,0 +1,51 @@
+.projects-title {
+  color: var(--main-color);
+  font-weight: bold;
+  font-size: 35px;
+  margin: 15px 0;
+  padding: 5px 30px;
+}
+
+.projects-item {
+  margin: 0 25% 40px 15%;
+  display: flex;
+}
+
+.projects-item-title {
+  display: flex;
+}
+
+.projects-link {
+  text-decoration: none;
+  position: relative;
+  left: 30px;
+}
+
+/* .projects-link:visited {
+  text-decoration: none;
+}
+
+.projects-link:hover {
+  border-bottom: 3px solid var(--accent-color);
+} */
+
+.projects-content {
+  margin: 0 4%;
+}
+
+.projects-info {
+  /* padding: 0 4%; */
+}
+
+.fit {
+  width: 130px;
+  font-size: 41px;
+  text-align: center;
+  font-weight: bold;
+  font-family: Tahoma, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: black;
+}
+
+.hub {
+  color: #00adf5;
+}
