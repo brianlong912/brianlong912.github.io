@@ -1,0 +1,10 @@
+
+
+class Prism{
+  constructor(){}
+  
+
+  show(){
+
+  }
+}

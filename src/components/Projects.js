@@ -77,8 +77,8 @@ function Projects() {
         <li>Team project using the Scrum framework to emulate the workforce environment</li>
         <li>Written in React with Firebase hosting and database</li>
       </ul> */}
-      <h2>Side Projects</h2>
-      <div id="prism-sketch" />
+      {/* <h2>Side Projects</h2>
+      <div id="prism-sketch" /> */}
 
     </div>
   )
