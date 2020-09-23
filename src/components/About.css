@@ -1,0 +1,13 @@
+
+.about {
+  background-color: var(--second-color);
+  padding-bottom: 40px;
+}
+
+.about-title {
+  color: var(--main-color);
+  font-weight: bold;
+  font-size: 35px;
+  margin: 15px 0;
+  padding: 5px 30px;
+}
