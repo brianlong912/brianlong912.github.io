@@ -24,7 +24,7 @@ function Projects() {
             used to find recipes. With this, I can find recipes using my favorite foods or stretch the
             few ingredients I have lying around my kitchen into actual meals. <br /><br />
 
-            This idea was made a reality in my software engineering senior design. Using the Scrum
+            This idea was made a reality in my software engineering senior design class. Using the Scrum
             methodology practices, three of us worked together to create a web app that served these
             functions. Building the frontend in React and using Google's Firebase database and hosting
             services allowed us to work in environments with which we had previous experience.<br /><br />

@@ -1,13 +1,41 @@
 
 .about {
   background-color: var(--second-color);
-  padding-bottom: 40px;
+  padding: 40px 12%;
 }
 
 .about-title {
   color: var(--main-color);
   font-weight: bold;
   font-size: 35px;
-  margin: 15px 0;
-  padding: 5px 30px;
+  /* margin: 15px 0; */
+  padding: 20px 0;
+  text-align: center;
+}
+
+.about-content {
+  background-color: var(--base-color);
+}
+
+.about-info {
+  padding: 0 10% 40px 10%;
+}
+
+.education {
+  padding-bottom: 50px
+}
+
+.education-title {
+  color: var(--main-color);
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.education-content {
+  display: inline-block;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
 }

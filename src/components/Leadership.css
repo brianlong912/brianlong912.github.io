@@ -7,8 +7,8 @@
   color: var(--base-color);
   font-size: 35px;
   font-weight: 600;
-  margin-top: 10px;
-  padding: 5px 30px;
+  padding: 13px 0;
+  text-align: center;
 }
 
 .leadership-item {

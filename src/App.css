@@ -40,11 +40,11 @@ hr {
 :target::before {
   content: "";
   display: block;
-  height: 20px;
-  margin: -20px 0 0; 
+  height: 40px;
+  margin: -40px 0 0; 
 }
 
-.App {
+#App {
   text-align: left;
   min-width: 50em;
 }
@@ -63,7 +63,7 @@ hr {
   background: var(--main-color);
 }
 
-.header-image {
+#header-image {
   background-image: url("./resources/Grad_arch_bike_cropped.jpeg");
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -89,9 +89,6 @@ hr {
   height: 2em;
 }
 
-.projects {
-  padding-top: 18px;
-}
 /* 
 .content {
   margin-left: 18%;
