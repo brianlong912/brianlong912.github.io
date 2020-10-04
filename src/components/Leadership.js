@@ -13,7 +13,7 @@ import './Leadership.css';
 function Leadership() {
   return (
     <div id="leadership" className="leadership">
-      <div className="leadership-title">Leadership Experience</div>
+      <div className="section-title">Leadership Experience</div>
       <div className="leadership-item">
         <div className="leadership-info">
           <div className="leadership-content">

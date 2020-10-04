@@ -6,7 +6,7 @@ import './Projects.css';
 function Projects() {
   return (
     <div id="projects" className="projects">
-      <div className="projects-title">Projects</div>
+      <div className="section-title">Projects</div>
       <div className="projects-item">
         <img src={F2RLogo} alt="Food2RecipeLogo" height="130px" />
         <div className="projects-content">
