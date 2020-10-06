@@ -10,19 +10,6 @@ body {
   min-width: 60em;
 }
 
-.nav {
-  text-decoration: none;
-  color: var(--base-color);
-}
-
-.nav:visited {
-  text-decoration: none;
-}
-
-.nav:hover {
-  border-bottom: 3px solid var(--accent-color);
-}
-
 h3 {
   color: var(--main-color);
   margin: 0 0 1em 0;
@@ -31,8 +18,8 @@ h3 {
 :target::before {
   content: "";
   display: block;
-  height: 40px;
-  margin: -40px 0 0; 
+  height: 61px;
+  margin: -61px 0 0; 
 }
 
 #App {
@@ -63,7 +50,8 @@ h3 {
   height: 100vh;
 }
 
-.navigation {
+#navigation {
+  height: 61px;
   background-color: var(--main-color);
   position: sticky;
   top: 0px;
@@ -75,11 +63,24 @@ h3 {
   justify-content: space-around;
   align-items: center;
   color: var(--base-color);
-  margin: 0 24%;
-  font-size: 20px;
-  height: 2em;
+  margin: 0 18%;
+  font-size: 26px;
+  height: inherit;
 }
 
+.nav {
+  padding: 0 10px;
+  text-decoration: none;
+  color: var(--base-color);
+}
+
+.nav:visited {
+  text-decoration: none;
+}
+
+.nav:hover {
+  border-bottom: 3px solid var(--accent-color);
+}
 
 .section-title {
   background-color: var(--main-color);
@@ -89,6 +90,7 @@ h3 {
   padding: 13px 0;
   text-align: center;
 }
+
 /* 
 .content {
   margin-left: 18%;

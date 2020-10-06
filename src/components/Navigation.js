@@ -2,7 +2,7 @@ import React from 'react';
 
 function Navigation() {
   return (
-    <div className="navigation">
+    <div id="navigation">
       {/* <div className="header" /> */}
       <div className="navigation-content">
         <a className="nav" href="#about">About Me</a>

@@ -8,12 +8,31 @@ import Passions from './components/Passions';
 import Navigation from './components/Navigation';
 
 function App() {
-  window.addEventListener("scroll", scroll());
+
+  /* scroll event handler */
+  let last;
+  let ticking = false;
+  window.addEventListener('scroll', function(e) {
+    last = window.scrollY;
+
+    if(!ticking){
+      window.requestAnimationFrame(function(){
+        scroll();
+        ticking = false;
+      });
+
+      ticking = true;
+    }
+  });
+
   function scroll() {
-    var header = document.getElementById("header-image");
-    // header.style.backgroundPosition = "0 -30px";
+    let header = document.getElementById("header-image");
+    let offset = "-" + last/3 + "px";
+    header.style.backgroundPositionY = offset;
     console.log(window.pageYOffset);
   }
+  /* end scroll event handler */
+
   return (
     <div id="App" > {/*onScroll={() => scroll()}*/}
       <div id="header-image">
