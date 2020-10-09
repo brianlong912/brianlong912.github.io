@@ -9,13 +9,12 @@ function Languages(props) {
         <div className="bar-container">
           <div className="bar" style={{ width: lang.percent }} />
         </div>
-
       </div>
     )
   })
 
   return (
-    <div>
+    <div style={{margin: "1.5em 0"}}>
       {languages}
     </div>
   )
