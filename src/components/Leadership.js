@@ -33,20 +33,20 @@ function Leadership() {
           </div>
         </div>
         <div className="leadership-pics">
-          <img src={BGRcircle} alt="BGRcircle" width="70%" height="100%" style={{ objectFit: "cover" }} />
+          <img src={BGRcircle} alt="BGRcircle" width="70%" height="100%" />
           <div style={{ width: "30%", height: "100%" }}>
-            <img src={BGRstairs} alt="BGRstairs" width="100%" height="50%" style={{ objectFit: "cover", display: "block" }} />
-            <img src={BGRbeacons} alt="BGRbeacons" width="100%" height="50%" style={{ objectFit: "cover" }} />
+            <img src={BGRstairs} alt="BGRstairs" width="100%" height="50%" style={{ display: "block" }} />
+            <img src={BGRbeacons} alt="BGRbeacons" width="100%" height="50%" />
           </div>
         </div>
       </div>
       <div className="leadership-item">
         <div className="leadership-pics">
           <div style={{ width: "60%", height: "100%" }}>
-            <img src={pdtLogo} alt="pdtLogo" width="100%" height="50%" style={{ objectFit: "cover", display: "block" }} />
-            <img src={pdtHouse} alt="pdtHouse" width="100%" height="50%" style={{ objectFit: "cover" }} />
+            <img src={pdtLogo} alt="pdtLogo" width="100%" height="50%" style={{ display: "block" }} />
+            <img src={pdtHouse} alt="pdtHouse" width="100%" height="50%" />
           </div>
-          <img src={pdtSpaceDay} alt="pdtSpaceDay" width="40%" height="100%" style={{ objectFit: "cover" }} />
+          <img src={pdtSpaceDay} alt="pdtSpaceDay" width="40%" height="100%" />
         </div>
         <div className="leadership-info">
           <div className="leadership-content">
@@ -91,10 +91,10 @@ function Leadership() {
             </ul> */}
         </div>
         <div className="leadership-pics">
-          <img src={TriGR} alt="TriGR" width="45%" height="100%" style={{ objectFit: "cover" }} />
+          <img src={TriGR} alt="TriGR" width="45%" height="100%" />
           <div style={{ width: "55%", height: "100%" }}>
-            <img src={TriBoilerman} alt="TriBoilerman" width="100%" height="50%" style={{ objectFit: "cover", display: "block" }} />
-            <img src={TriMuncie} alt="TriMuncie" width="100%" height="50%" style={{ objectFit: "cover" }} />
+            <img src={TriBoilerman} alt="TriBoilerman" width="100%" height="50%" style={{ display: "block" }} />
+            <img src={TriMuncie} alt="TriMuncie" width="100%" height="50%" />
           </div>
         </div>
       </div>

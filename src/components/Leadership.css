@@ -1,5 +1,6 @@
 .leadership {
   margin-top: 30px;
+  background-color: var(--second-color);
 }
 
 .leadership-title {
@@ -14,14 +15,13 @@
 .leadership-item {
   display: flex;
   flex-direction: row;
-  background-color: var(--second-color);
   color: var(--base-color);
 }
 
 .leadership-info {
   display: flex;
+  flex: 1;
   align-items: center;
-  width: 50%;
 }
 
 .leadership-content {
@@ -29,8 +29,8 @@
 }
 
 .leadership-pics {
-  width: 50%;
   display: inherit;
+  flex: 1;
   align-items: flex-start;
   flex-wrap: wrap;
 }

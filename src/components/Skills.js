@@ -31,7 +31,7 @@ function Skills() {
           </ul> */}
         </div>
         <div id="coursework">
-          <div className="skills-title">Coursework</div>
+          <div className="skills-title">Relevant Coursework</div>
           <div id="courses-list">
             <ul>
               <li>Data Structures and Algorithms</li>

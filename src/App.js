@@ -29,7 +29,6 @@ function App() {
     let header = document.getElementById("header-image");
     let offset = "-" + last/3 + "px";
     header.style.backgroundPositionY = offset;
-    console.log(window.pageYOffset);
   }
   /* end scroll event handler */
 

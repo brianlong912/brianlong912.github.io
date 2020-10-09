@@ -1,0 +1,30 @@
+
+#passions {
+  background-color: var(--second-color);
+}
+
+.passions-item {
+  display: flex;
+  height: 430px;
+}
+
+.passion-info-container {
+  display: inherit;
+  flex: 1;
+  align-items: center;
+}
+
+.passion-info {
+  color: var(--base-color);
+  padding: 10% 13%;
+}
+
+/* .passions-item-title {
+  padding: 0 0 1em 0;
+  font-weight: bold;
+} */
+
+.passion-pics {
+  display: flex;
+  flex: 1;
+}
