@@ -25,7 +25,7 @@ function Passions() {
         <div className="passion-pics">
           <img src={Nats} alt="Nats" width="40%" height="100%" />
           <div style={{ width: "60%", height: "100%" }}>
-            <img src={TriFit} alt="TriFit" width="100%" height="50%" style={{ display: "block" }} />
+            <img src={TriFit} alt="TriFit" width="100%" height="50%" style={{ display: "block", objectPosition: "0 -20px" }} />
             <img src={IM70} alt="IM70.3" width="100%" height="50%" />
           </div>
         </div>
