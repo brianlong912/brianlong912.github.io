@@ -21,14 +21,6 @@ function Skills() {
         <div className="languages">
           <div className="skills-title">Languages</div>
           <Languages languages={languages} />
-          {/* <ul>
-            <li>C</li>
-            <li>C++</li>
-            <li>Java</li>
-            <li>JavaScript</li>
-            <li>HTML/CSS</li>
-            <li>React</li>
-          </ul> */}
         </div>
         <div id="coursework">
           <div className="skills-title">Relevant Coursework</div>

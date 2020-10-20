@@ -1,11 +1,12 @@
 import React from 'react';
+import Plogo from '../resources/Purdue_Boilermakers_logo.svg';
 import './About.css';
 
 function About() {
   return (
     <div id="about" className="about">
+      <div className="section-title">About Me</div>
       <div className="about-content">
-        <div className="about-title">About Me</div>
         <div className="about-info">
           Personable and diligent, I am seeking a position to blend my passion for physics with my love for computer science.
           While these fields approach problem-solving in different ways, I am able to use my experience from
@@ -13,6 +14,7 @@ function About() {
           time management skills while enriching me with valuable leadership experiences. Adding in my love for
           triathlons and I have the determination to exhaust all possibilities.
         </div>
+        <img src={Plogo} alt="Purdue Logo" height="170" style={{objectFit: "fill"}}/>
         <div className="education">
           <div className="education-title">Education</div>
           <div className="education-content">
