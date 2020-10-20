@@ -1,9 +1,6 @@
 
-#passions {
-  background-color: var(--second-color);
-}
-
 .passions-item {
+  background-color: var(--second-color);
   display: flex;
   height: 450px;
 }

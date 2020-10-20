@@ -1,7 +1,6 @@
-.leadership {
+/* .leadership {
   margin-top: 30px;
-  background-color: var(--second-color);
-}
+} */
 
 .leadership-title {
   background-color: var(--main-color);
@@ -15,6 +14,7 @@
 .leadership-item {
   display: flex;
   flex-direction: row;
+  background-color: var(--second-color);
   color: var(--base-color);
 }
 
