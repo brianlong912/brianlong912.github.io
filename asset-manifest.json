@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/my-website/static/css/main.8c693bd4.chunk.css",
-    "main.js": "/my-website/static/js/main.efa16284.chunk.js",
-    "main.js.map": "/my-website/static/js/main.efa16284.chunk.js.map",
+    "main.css": "/my-website/static/css/main.4e8da0ac.chunk.css",
+    "main.js": "/my-website/static/js/main.8de16d3b.chunk.js",
+    "main.js.map": "/my-website/static/js/main.8de16d3b.chunk.js.map",
     "runtime-main.js": "/my-website/static/js/runtime-main.0cbcd75a.js",
     "runtime-main.js.map": "/my-website/static/js/runtime-main.0cbcd75a.js.map",
-    "static/js/2.6ad50fac.chunk.js": "/my-website/static/js/2.6ad50fac.chunk.js",
-    "static/js/2.6ad50fac.chunk.js.map": "/my-website/static/js/2.6ad50fac.chunk.js.map",
+    "static/js/2.0e9de185.chunk.js": "/my-website/static/js/2.0e9de185.chunk.js",
+    "static/js/2.0e9de185.chunk.js.map": "/my-website/static/js/2.0e9de185.chunk.js.map",
     "index.html": "/my-website/index.html",
-    "precache-manifest.17856ec592b1cc3e0e2b273b8122ab9e.js": "/my-website/precache-manifest.17856ec592b1cc3e0e2b273b8122ab9e.js",
+    "precache-manifest.7adec9e5b005b42ef0d135e926b5db6c.js": "/my-website/precache-manifest.7adec9e5b005b42ef0d135e926b5db6c.js",
     "service-worker.js": "/my-website/service-worker.js",
-    "static/css/main.8c693bd4.chunk.css.map": "/my-website/static/css/main.8c693bd4.chunk.css.map",
-    "static/js/2.6ad50fac.chunk.js.LICENSE.txt": "/my-website/static/js/2.6ad50fac.chunk.js.LICENSE.txt",
+    "static/css/main.4e8da0ac.chunk.css.map": "/my-website/static/css/main.4e8da0ac.chunk.css.map",
+    "static/js/2.0e9de185.chunk.js.LICENSE.txt": "/my-website/static/js/2.0e9de185.chunk.js.LICENSE.txt",
     "static/media/BGRbeacons.JPG": "/my-website/static/media/BGRbeacons.885efb25.JPG",
     "static/media/BGRcircle.JPEG": "/my-website/static/media/BGRcircle.a9d61f1f.JPEG",
     "static/media/BGRstairs.JPG": "/my-website/static/media/BGRstairs.1f4dcdae.JPG",
@@ -20,6 +20,7 @@
     "static/media/App.css": "/my-website/static/media/Grad_arch_bike_cropped.d550f122.jpeg",
     "static/media/IM.JPG": "/my-website/static/media/IM.afb7d854.JPG",
     "static/media/Nats_finish.JPG": "/my-website/static/media/Nats_finish.08c3d8b1.JPG",
+    "static/media/Purdue_Boilermakers_logo.svg": "/my-website/static/media/Purdue_Boilermakers_logo.7325d422.svg",
     "static/media/TriFit.JPG": "/my-website/static/media/TriFit.341790bc.JPG",
     "static/media/Tri_Boilerman.JPG": "/my-website/static/media/Tri_Boilerman.b33f6272.JPG",
     "static/media/Tri_GR.JPG": "/my-website/static/media/Tri_GR.1285842a.JPG",
@@ -31,8 +32,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.0cbcd75a.js",
-    "static/js/2.6ad50fac.chunk.js",
-    "static/css/main.8c693bd4.chunk.css",
-    "static/js/main.efa16284.chunk.js"
+    "static/js/2.0e9de185.chunk.js",
+    "static/css/main.4e8da0ac.chunk.css",
+    "static/js/main.8de16d3b.chunk.js"
   ]
 }

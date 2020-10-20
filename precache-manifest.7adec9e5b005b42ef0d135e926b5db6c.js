@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d84daa20227e521a5f4d4ba7fe879041",
+    "revision": "01d58e48bdd9308828d447ba85cd6526",
     "url": "/my-website/index.html"
   },
   {
-    "revision": "fdf3f217e34c16294fc4",
-    "url": "/my-website/static/css/main.8c693bd4.chunk.css"
+    "revision": "e6c3c5d82cbfac31a3e5",
+    "url": "/my-website/static/css/main.4e8da0ac.chunk.css"
   },
   {
-    "revision": "6e2f04fc689ff362d89b",
-    "url": "/my-website/static/js/2.6ad50fac.chunk.js"
+    "revision": "3ee0b639e0beaa0264ad",
+    "url": "/my-website/static/js/2.0e9de185.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/my-website/static/js/2.6ad50fac.chunk.js.LICENSE.txt"
+    "url": "/my-website/static/js/2.0e9de185.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fdf3f217e34c16294fc4",
-    "url": "/my-website/static/js/main.efa16284.chunk.js"
+    "revision": "e6c3c5d82cbfac31a3e5",
+    "url": "/my-website/static/js/main.8de16d3b.chunk.js"
   },
   {
     "revision": "8a31e1a8153659a682c8",
@@ -54,6 +54,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "08c3d8b145c49aa786dbab07379d5413",
     "url": "/my-website/static/media/Nats_finish.08c3d8b1.JPG"
+  },
+  {
+    "revision": "7325d422f844b7cc783ab2e6cbd99c0c",
+    "url": "/my-website/static/media/Purdue_Boilermakers_logo.7325d422.svg"
   },
   {
     "revision": "341790bc696d9315d5410aebe23d67f3",
