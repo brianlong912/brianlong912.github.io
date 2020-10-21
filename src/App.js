@@ -6,6 +6,7 @@ import Leadership from './components/Leadership';
 import Skills from './components/Skills';
 import Passions from './components/Passions';
 import Navigation from './components/Navigation';
+import BottomBar from './components/BottomBar';
 
 function App() {
 
@@ -35,7 +36,7 @@ function App() {
   return (
     <div id="App" > {/*onScroll={() => scroll()}*/}
       <div id="header-image">
-        <div className="name">Brian Long</div>
+        {/* <div className="name">Brian Long</div> */}
       </div>
       <Navigation />
       <div className="content">
@@ -45,6 +46,7 @@ function App() {
         <Skills />
         <Passions />
       </div>
+      <BottomBar />
     </div>
   );
 }

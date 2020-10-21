@@ -96,8 +96,45 @@ img {
   text-align: center;
 }
 
-/* 
-.content {
-  margin-left: 18%;
-  margin-right: 18% ;
-} */
+#bottombar {
+  /* align-items: center; */
+  background-color: var(--main-color);
+  height: 150px;
+  padding: 50px 30% 0 30%;
+}
+
+.bottom-container {
+  display: flex;
+  justify-content: space-around;
+  height: 30px;
+}
+
+.resume {
+  color: var(--base-color);
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.resume:visited {
+  text-decoration: none;
+}
+
+.resume:hover {
+  border-bottom: 3px solid var(--accent-color);
+}
+
+.email {
+  color: var(--base-color);
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 30px;
+}
+
+.email:visited {
+  text-decoration: none;
+}
+
+.email:hover {
+  border-bottom: 3px solid var(--accent-color);
+}
