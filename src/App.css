@@ -3,7 +3,7 @@
   --main-color:#042532;
   --base-color: white;
   --second-color: #38AECC;
-  --accent-color: #FF6978;
+  --accent-color: #38AECC;
 }
 
 body {
@@ -31,13 +31,12 @@ img {
   min-width: 50em;
 }
 
-.name {
+.logo-name {
   background: transparent;
   position: absolute;
-  left: 100px;
-  top: 40px;
-  color: var(--main-color);
-  font-size: 3em;
+  left: 50%;
+  transform: translate(-50%, 0);
+  top: 280px;
 }
 
 .header {

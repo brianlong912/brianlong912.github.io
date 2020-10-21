@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css';
 import About from './components/About';
 import Projects from './components/Projects';
 import Leadership from './components/Leadership';
@@ -7,6 +6,8 @@ import Skills from './components/Skills';
 import Passions from './components/Passions';
 import Navigation from './components/Navigation';
 import BottomBar from './components/BottomBar';
+import Name from './resources/BL_name.png'
+import './App.css';
 
 function App() {
 
@@ -36,7 +37,9 @@ function App() {
   return (
     <div id="App" > {/*onScroll={() => scroll()}*/}
       <div id="header-image">
-        {/* <div className="name">Brian Long</div> */}
+        <div className="logo-name">
+          <img src={Name} height="440px" />
+        </div>
       </div>
       <Navigation />
       <div className="content">
