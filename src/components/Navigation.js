@@ -5,7 +5,7 @@ function Navigation() {
     <div id="navigation">
       {/* <div className="header" /> */}
       <div className="navigation-content">
-        <a className="nav" href="#about">About Me</a>
+        <a className="nav" href="#about" >About Me</a>
         <div>|</div>
         <a className="nav" href="#projects">Projects</a>
         <div>|</div>

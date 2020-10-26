@@ -12,7 +12,7 @@ function Projects() {
         <div className="projects-content">
           <div className="projects-item-title">
             <h3>Food2Recipe</h3>
-            <a className="projects-link" href="https://github.com/lee2877/FoodToRecipe">
+            <a className="projects-link" href="https://github.com/lee2877/FoodToRecipe" target="_blank">
               <img src={GitHubLogo} alt="GitHubLogo" height="25px" />
             </a>
           </div>
@@ -50,7 +50,7 @@ function Projects() {
         <div className="projects-content">
           <div className="projects-item-title">
             <h3>FitHub</h3>
-            <a className="projects-link" href="https://github.com/hubermjonathan/fithub">
+            <a className="projects-link" href="https://github.com/hubermjonathan/fithub" target="_blank">
               <img src={GitHubLogo} alt="GitHubLogo" height="25px" />
             </a>
           </div>
