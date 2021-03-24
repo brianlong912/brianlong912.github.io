@@ -10,6 +10,10 @@ body {
   min-width: 60em;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 h3 {
   color: var(--main-color);
   margin: 0 0 1em 0;
